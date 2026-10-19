@@ -113,6 +113,10 @@ td.mono{font-variant-numeric:tabular-nums;letter-spacing:.5px;overflow-wrap:anyw
 
 .proj{display:grid;gap:var(--space-4);grid-template-columns:1fr}
 @media(min-width:760px){.proj{grid-template-columns:1fr 1fr}}
+.kf-logo{display:inline-flex;align-items:center;gap:12px;background:#1C1B22;color:#ECE8E1;padding:12px 18px;border-radius:var(--radius-md);text-decoration:none;font-family:"Fira Sans Condensed","Arial Narrow",Poppins,sans-serif;font-weight:700;font-size:1.35rem;line-height:1;align-self:flex-start;width:fit-content}
+.kf-logo:hover{background:#2a2933}
+.kf-logo.kf-small{font-size:1rem;padding:8px 12px;gap:9px}.kf-logo.kf-small svg{width:26px;height:26px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .pcard{display:flex;flex-direction:column;gap:var(--space-2);border:1px solid var(--line);border-radius:var(--radius-md) var(--radius-md) var(--radius-md) var(--space-5);padding:var(--space-4);background:var(--bg)}
 .pcard.hl{border-color:var(--yellow);border-width:2px}
 .pcard img{border-radius:var(--radius-md);width:100%;height:auto}
