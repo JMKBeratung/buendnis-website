@@ -17,7 +17,7 @@
     }
     return out;
   }
-  var all=D.events.map(function(e){return{d:parse(e.datum),z:e.zeit,t:e.titel,x:e.text}});
+  var all=D.events.map(function(e){return{d:parse(e.datum),z:e.zeit,t:e.titel,x:e.text,link:e.link}});
   var fut=all.filter(function(e){return e.d>=today});
   var past=all.filter(function(e){return e.d<today});
   var belegt={};D.events.forEach(function(e){belegt[e.datum+'|'+e.titel]=1});
@@ -25,7 +25,7 @@
   function cmp(a,b){return a.d-b.d||(a.z>b.z?1:-1)}
   fut.sort(cmp);past.sort(cmp);
   function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;')}
-  function li(e){return '<li><time datetime="'+iso(e.d)+'">'+fmt(e.d,e.z)+'</time><h3>'+esc(e.t)+'</h3><p>'+esc(e.x)+'</p></li>'}
+  function li(e){return '<li><time datetime="'+iso(e.d)+'">'+fmt(e.d,e.z)+'</time><h3>'+esc(e.t)+'</h3><p>'+esc(e.x)+(e.link?' <a href="'+e.link+'">Mehr Informationen</a>':'')+'</p></li>'}
   var z=document.getElementById('tl-zukunft'),v=document.getElementById('tl-vergangen');
   if(z)z.innerHTML=fut.map(li).join('');
   if(v)v.innerHTML=past.map(li).join('');

@@ -70,13 +70,15 @@ window.BDT_TERMINE={
    "datum": "2026-11-08",
    "zeit": "11:00",
    "titel": "Velten hält zusammen: Vielfalt feiern",
-   "text": "Politisches Friedensgebet gemeinsam mit der muslimischen Gebetsgruppe, mit Gebeten verschiedener Konfessionen und Redebeiträgen aus Kirchen, Religionsgemeinschaften und Politik. Gemeindezentrum Velten Süd. Alle sind willkommen."
+   "text": "Politisches Friedensgebet gemeinsam mit der muslimischen Gebetsgruppe, mit Gebeten verschiedener Konfessionen und Redebeiträgen aus Kirchen, Religionsgemeinschaften und Politik. Gemeindezentrum Velten Süd. Alle sind willkommen.",
+   "link": "velten-haelt-zusammen.html"
   },
   {
    "datum": "2026-11-09",
    "zeit": "18:00",
    "titel": "Gedenken an Carl Calm: Der Verfolgung gedenken",
-   "text": "Gedenkveranstaltung zum 9. November 1938 an der Bahnstraße Ecke Poststraße in Velten, mit Musik von Neele auf der Querflöte. Wir erinnern erstmals an Carl Calm, einen Veltener Unternehmer, der auf einem Foto in der Dauerausstellung der Gedenkstätte Sachsenhausen zu sehen ist. Bitte eigene Grabkerzen mitbringen. Eingeladen sind alle Veltener, Marwitzer und Leegebrucher und alle, die sich zugehörig fühlen. Auftakt unserer Erinnerungsreihe zum 27. Januar."
+   "text": "Gedenkveranstaltung zum 9. November 1938 an der Bahnstraße Ecke Poststraße in Velten, mit Musik von Neele auf der Querflöte. Wir erinnern erstmals an Carl Calm, einen Veltener Unternehmer, der auf einem Foto in der Dauerausstellung der Gedenkstätte Sachsenhausen zu sehen ist. Bitte eigene Grabkerzen mitbringen. Eingeladen sind alle Veltener, Marwitzer und Leegebrucher und alle, die sich zugehörig fühlen. Auftakt unserer Erinnerungsreihe zum 27. Januar.",
+   "link": "velten-haelt-zusammen.html"
   },
   {
    "datum": "2027-01-22",
